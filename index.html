@@ -1,7 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <style>
-    *{
+    * {
         scrollbar-width: none;
     }
     body {
@@ -9,7 +9,7 @@
         padding: 0;
         font-family: "MoMA Sans", Helvetica, Arial, sans-serif;
         font-style: normal;
-        font-size: 14px;
+        font-size: 22px;
     }
     div {
         display: block;
@@ -41,13 +41,13 @@
     .art_grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 50px;
+        column-gap: 80px;
         row-gap: 25px;
         line-height: 150%;
     }
     .art_container {
-        padding: 15px;
-    } 
+            padding: 5px;
+    }
     .art_image {
         display: flex;
         justify-content: center;
@@ -61,14 +61,23 @@
         text-align: center;
     }
 
-    @media (min-width: 907px) { 
-        body {
-            font-size: 24px;
+    @media only screen and (max-width: 700px) { 
+            body {
+            font-size: 12px;
         }
-        .art_grid {
-            column-gap: 50px;
-            row-gap: 40px;
-        }
+            .art_grid {
+        column-gap: 50px;
+        row-gap: 25px;
+        line-height: 150%;
+            }
+        .art_container {
+            padding: 0px;
+            }
+    }
+    @media only screen and (max-width: 350px) { 
+            .art_grid {
+        column-gap: 20px;
+            }
     }
 </style>
 <body>
