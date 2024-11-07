@@ -1,6 +1,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <style>
+    *{
+        scrollbar-width: none;
+    }
     body {
         margin: 0;
         padding: 0;
@@ -36,14 +39,11 @@
         max-width: max-content;
     }
     .art_grid {
-        scrollbar-width: none;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 50px;
+        column-gap: 50px;
+        row-gap: 25px;
         line-height: 150%;
-    }
-    .art_container {
-        padding: 5px;
     }
     .art_image {
         display: flex;
@@ -62,6 +62,10 @@
         body {
             font-size: 24px;
         }
+        .art_grid {
+            column-gap: 50px;
+            row-gap: 40px;
+        }
     }
 </style>
 <body>
@@ -75,10 +79,6 @@
                 </div>  
                 <div class="art_title">Everything Always Everywhere</div>
             </a>
-            <p>
-                <a href="https://www.everythingalwayseverywhere.com/" 
-                    target="_blank" rel="noopener"></a>
-            </p>
         </div>
         <div class="art_container">
             <a href="https://www.slowempty.com/" 
@@ -89,10 +89,6 @@
                 </div>  
                 <div class="art_title">Slow Empty</div>
             </a>
-            <p>
-                <a href="https://www.slowempty.com/" 
-                    target="_blank" rel="noopener"></a>
-            </p>
         </div>
         <div class="art_container">
             <a href="https://www.eggalone.com/" 
@@ -103,10 +99,6 @@
                 </div>  
                 <div class="art_title">Egg Alone</div>
             </a>
-            <p>
-                <a href="https://www.eggalone.com/" 
-                    target="_blank" rel="noopener"></a>
-            </p>
         </div>
         <div class="art_container">
             <a href="https://www.slowempty.com/" 
@@ -117,10 +109,6 @@
                 </div>  
                 <div class="art_title">Shape squeeze</div>
             </a>
-            <p>
-                <a href="https://www.slowempty.com/" 
-                    target="_blank" rel="noopener"></a>
-            </p>
         </div>
         <div class="art_container">
             <a href="https://www.manymoment.com/" 
@@ -131,10 +119,6 @@
                 </div>  
                 <div class="art_title">Many Moment</div>
             </a>
-            <p>
-                <a href="https://www.manymoment.com/" 
-                    target="_blank" rel="noopener"></a>
-            </p>
         </div>
         <div class="art_container">
             <a href="https://www.returnreverse.com/" 
@@ -145,10 +129,6 @@
                 </div>  
                 <div class="art_title">Return Reverse</div>
             </a>
-            <p>
-                <a href="https://www.returnreverse.com/" 
-                    target="_blank" rel="noopener"></a>
-            </p>
         </div>
     </div>
 </body>
