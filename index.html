@@ -1,8 +1,9 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <style>
-    * {
-        scrollbar-width: none;
+		* {
+    		scrollbar-width: none;
     }
     body {
         margin: 0;
@@ -33,7 +34,7 @@
         /* line-height: 150%; */
     }
     .art_container {
-        place-items: center;
+    	place-items: center;
     }
     .art_image {
         display: flex;
@@ -43,259 +44,262 @@
     }
     .art_image  img {
         width: 100%;
+        height: auto;
         margin-bottom: 15px;
     }
     .art_title {
         text-align: left;
+        /* padding: 0px 5px 0px 5px; */
     }
-    @media only screen and (max-width: 900px) { 
-        .art_grid {
-        grid-template-columns: repeat(4, 1fr);
-        }
+		@media only screen and (max-width: 900px) { 
+    		.art_grid {
+        	grid-template-columns: repeat(4, 1fr);
+    		}
     }
     @media only screen and (max-width: 500px) { 
-        .art_grid {
-            grid-template-columns: repeat(3, 1fr);
-            column-gap: 0px;
-            row-gap: 25px;
-            line-height: 150%;
-        }
+    		.art_grid {
+        	grid-template-columns: repeat(3, 1fr);
+          column-gap: 0px;
+          row-gap: 25px;
+          line-height: 150%;
+    		}
     }
     @media only screen and (max-width: 400px) { 
         body {
-            font-size: 14px;
+        	font-size: 14px;
         }
-        .art_grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
+    		.art_grid {
+        	grid-template-columns: repeat(2, 1fr);
+    		}
     }
-</style>
+  </style>
+</head>
 <body>
-    <div class="art_grid">
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.everythingalwayseverywhere.com/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2013-everything-always-everywhere.png"/>
-              <div class="art_title">Everything Always Everywhere</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.slowempty.com/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2013-slow-empty.png"/>
-              <div class="art_title">Slow Empty</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.eggalone.com/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2017-egg-alone.png"/>
-              <div class="art_title">Egg Alone</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.shapesqueeze.com/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2018-shape-squeeze.png"/>
-              <div class="art_title">Shape squeeze</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.manymoment.com/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2018-many-moment.png"/>
-              <div class="art_title">Many Moment</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.returnreverse.com/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2019-return-reverse.png"/>
-              <div class="art_title">Return Reverse</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/only-nothing/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2021-only-nothing.png"/>
-              <div class="art_title">Only Nothing</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/deep-blue/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2021-deep-blue.png"/>
-              <div class="art_title">Deep Blue</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/twisting-and-turning/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2021-twisting-and-turning.png"/>
-              <div class="art_title">Twisting and Turning</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/dive/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2021-dive.png"/>
-              <div class="art_title">Dive</div>
-            </a>
-          </div> 
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/non-either/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2022-non-either.png"/>
-              <div class="art_title">Non Either</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/half-half-half/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2023-half-half-half.png"/>
-              <div class="art_title">Half Half Half</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/large-shape/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2023-large-shape.png"/>
-              <div class="art_title">Large Shape</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/quadrant/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2023-quadrant.png"/>
-              <div class="art_title">Quadrant</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/melting/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2023-melting.png"/>
-              <div class="art_title">Melting</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/flood/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2023-flood.png"/>
-              <div class="art_title">Flood</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/pages/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2023-pages.png"/>
-              <div class="art_title">Pages</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/stereo/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2023-stereo.png"/>
-              <div class="art_title">Stereo</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/implosion/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2023-implosion.png"/>
-              <div class="art_title">Implosion</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/rooms/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2024-rooms.png"/>
-              <div class="art_title">Rooms</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/home/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2024-home.png"/>
-              <div class="art_title">Home</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/rio/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2024-rio.png"/>
-              <div class="art_title">Rio</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/clash/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2024-clash.png"/>
-              <div class="art_title">Clash</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/twist/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2024-twist.png"/>
-              <div class="art_title">Twist</div>
-            </a>
-          </div>  
-        </div>
-        <div class="art_container">
-          <div class="art_image">
-            <a href="https://www.newrafael.com/stretch/" 
-               target="_blank" rel="noopener">
-              <img decoding="async" src="https://www.newrafael.com/img/piecethumbs/2024-stretch.png"/>
-              <div class="art_title">Stretch</div>
-            </a>
-          </div>  
-        </div>
+  <div class="art_grid">
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.everythingalwayseverywhere.com/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2013-everything-always-everywhere.png"/>
+          <div class="art_title">Everything Always Everywhere</div>
+        </a>
+      </div>  
     </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.slowempty.com/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2013-slow-empty.png"/>
+          <div class="art_title">Slow Empty</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.eggalone.com/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2017-egg-alone.png"/>
+          <div class="art_title">Egg Alone</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.shapesqueeze.com/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2018-shape-squeeze.png"/>
+          <div class="art_title">Shape squeeze</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.manymoment.com/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2018-many-moment.png"/>
+          <div class="art_title">Many Moment</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.returnreverse.com/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2019-return-reverse.png"/>
+          <div class="art_title">Return Reverse</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/only-nothing/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2021-only-nothing.png"/>
+          <div class="art_title">Only Nothing</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/deep-blue/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2021-deep-blue.png"/>
+          <div class="art_title">Deep Blue</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/twisting-and-turning/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2021-twisting-and-turning.png"/>
+          <div class="art_title">Twisting and Turning</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/dive/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2021-dive-136.png"/>
+          <div class="art_title">Dive</div>
+        </a>
+      </div> 
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/non-either/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2022-non-either-64.png"/>
+          <div class="art_title">Non Either</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/half-half-half/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2023-half-half-half-14.png"/>
+          <div class="art_title">Half Half Half</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/large-shape/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2023-large-shape-02.png"/>
+          <div class="art_title">Large Shape</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/quadrant/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2023-quadrant-13.png"/>
+          <div class="art_title">Quadrant</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/melting/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2023-melting.png"/>
+          <div class="art_title">Melting</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/flood/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2023-flood-33.png"/>
+          <div class="art_title">Flood</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/pages/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2023-pages-000.png"/>
+          <div class="art_title">Pages</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/stereo/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2023-stereo-00.png"/>
+          <div class="art_title">Stereo</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/implosion/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2023-implosion.png"/>
+          <div class="art_title">Implosion</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/rooms/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2024-rooms.png"/>
+          <div class="art_title">Rooms</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/home/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2024-home-06.png"/>
+          <div class="art_title">Home</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/rio/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2024-rio-00.png"/>
+          <div class="art_title">Rio</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/clash/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2024-clash.png"/>
+          <div class="art_title">Clash</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/twist/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2024-twist-01.png"/>
+          <div class="art_title">Twist</div>
+        </a>
+      </div>  
+    </div>
+    <div class="art_container">
+      <div class="art_image">
+        <a href="https://www.newrafael.com/stretch/" 
+           target="_blank" rel="noopener">
+          <img decoding="async" width=256 height=256 src="https://www.moma.org/d/p/sa/2024-stretch-00.png"/>
+          <div class="art_title">Stretch</div>
+        </a>
+      </div>  
+    </div>
+  </div>
 </body>
